@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+navbar{
+    display:flex;
+    justify-content: flex-end;
+    margin:1rem;
+}
+navbar li{
+    list-style-type: none;
+    padding:0.4rem;
+    font-size:1.2rem;
+}
+a{  
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+img{
+    height:3rem;
+    width:3rem;
+    cursor:pointer;
+    margin-left:1rem;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top:4rem;
+}
+.text span{
+    font-family:"Poppins";
+    font-size:6rem;
+    letter-spacing: -0.5rem;
+}
+.text #first{
+    color:rgb(0, 153, 255);
+}
+.text #second{
+    color:rgb(255, 0, 0);
+}
+.text #third{
+    color:rgb(255, 204, 0);
+}
+.text #fourth{
+    color:rgb(0, 153, 255);
+}
+.text #fifth{
+    color:rgb(0, 230, 0);
+}
+.text #sixth{
+    color:rgb(255, 0, 0);
+}
+.search input{
+    font-size:1rem;
+    padding:0.8rem 14rem;
+    border:none;
+    border-radius:2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width:100%;
+}
+.search input::placeholder {
+    text-align: left;
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+}
+.buttons button{
+    padding:0.5rem 1.5rem;
+    margin-top:1.5rem;
+    font-size:1rem;
+    border:none;
+    border-radius:0.2rem;
+    margin:0.5rem;
+    cursor:pointer;
+    transition:0.2s;
+}
+.buttons button:hover{
+    background-color: rgb(204, 204, 204);
+}
